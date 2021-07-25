@@ -3,7 +3,7 @@
     
 }
 .headcont{
-    height: 550px;
+    height: 500px;
     background-color: lightgray;
   
     overflow: hidden;
@@ -24,12 +24,16 @@
     margin-top: 10px;
     
 }
-.eat{
+a:hover{
+	  
+    color:rgb(226, 95, 43) ;
+    text-decoration: underline;
+    
+  }
+ 
+.eat{/* from here */
     height: 300px;
     display: flex;
-    /*margin: auto;
-    width: 100%;*/
-   
     margin-left: 100px;
     width: 80%;
    
@@ -44,10 +48,11 @@
 }
 h2{
     color: #EAAB1B;
-}
- .intro{
+} /*to here */
+ .intro{/*added*/
      margin-left: 100px;
      margin-top: 50px;
+     font-size: 14px;
  } 
 #order{
     border-radius: 50px;
@@ -63,25 +68,17 @@ h2{
     color: #6CB840;
 }
 #food{
-    color: #EAAB1B;
+    color: #EAAB1B; /*to here */
 }
 .ell{
-    margin-top: -600px;/*increase -270*/
+    margin-top: -550px;/*increase -270*/
     height: 500px;
     margin-left: 500px;/*reduce*/
     margin-right: -120px;/*increase*/
     border-bottom-left-radius: 500px;
     border-bottom-right-radius: 500px;
     background-color: #649549;
-   /* top: -200px;
-   position: relative;
-    
-    right: -20px;
-    background-color: #649549;
-    height: 400px;
-    width: 400px;
-    border-radius: 50%; */
-       
+   
 }
 #plate{
     margin-top: -50px;
@@ -89,7 +86,7 @@ h2{
 }
 .menu-2{
     background-color: #C9ECB5;
-    height: 550px;
+    height: 600px;
     width: 80%;
     margin-left: 100px;
 
@@ -235,13 +232,13 @@ h4{
      font-weight: 570;
  }
  .menu-1{
-    height: 450px;
+    height: 500px;
     width: 80%;
     margin-left: 100px;
     background-color:lightgray;
 
  }
-.separa{
+.separa{/* added */
     height: 150px;
     width: 300px;
     border-style: dashed;
@@ -252,8 +249,7 @@ h4{
      border-top-right-radius: 500px;
      margin-top: -250px;
      margin-right: 180px;
-     border-color:  green;
-   
+     border-color:  green;  
 }
 #waffle{
     margin-top: -60px;
@@ -276,3 +272,95 @@ h4{
     margin-left: 1040px;
     margin-top: -7px;
 }
+.menu-1 img{ /*from here*/
+    width: 150px;
+    height: 150px;
+}
+.disp{
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 100px;
+   
+}
+.txt{
+    margin-top: -20px;
+    margin-bottom: 50px;
+    margin-left: -150px;
+}
+.descrip{
+    background-color: white;
+    height: 130px;
+    width: 170px;
+    border-bottom-right-radius: 25px;
+    margin-bottom: 70px;
+    margin-right: 120px;
+   
+}
+.one{
+    margin-top: -110px;
+    margin-left: -90px;
+}
+#nam{
+    font-size: 12px;
+
+}
+.smt{
+    font-size: 10px;
+    margin-left: 40px;
+}
+.dent1{
+    text-indent: 20px;
+    margin-top: -10px;
+}
+.dent2{
+    text-indent: 20px;
+}
+.descrip2{
+    background-color: white;
+    height: 130px;
+    width: 170px;
+    border-bottom-right-radius: 25px;
+    margin-bottom: 70px;
+    margin-right: 120px;
+    
+}
+.descrip3{
+    background-color: white;
+    height: 130px;
+    width: 170px;
+    border-bottom-right-radius: 25px;
+    margin-bottom: 70px;
+    margin-right: 120px;
+    
+    
+}
+.disp2{
+    display: flex;
+    margin-left: 100px;
+}
+.descrip4{
+    background-color: white;
+    height: 130px;
+    width: 170px;
+    border-bottom-right-radius: 25px;
+    margin-bottom: 70px;
+    margin-right: 120px;     
+}
+.descrip5{
+    background-color: white;
+    height: 130px;
+    width: 170px;
+    border-bottom-right-radius: 25px;
+    margin-bottom: 70px;
+    margin-right: 120px;  
+    
+}
+.descrip6{
+    background-color: white;
+    height: 130px;
+    width: 170px;
+    border-bottom-right-radius: 25px;
+    margin-bottom: 70px;
+    margin-right: 120px;  
+    
+}/*to here*/
