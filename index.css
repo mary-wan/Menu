@@ -1,8 +1,9 @@
 *{
     font-family: 'Poppins';
+    
 }
 .headcont{
-    height: 450px;
+    height: 550px;
     background-color: lightgray;
   
     overflow: hidden;
@@ -44,10 +45,28 @@
 h2{
     color: #EAAB1B;
 }
-  
-
+ .intro{
+     margin-left: 100px;
+     margin-top: 50px;
+ } 
+#order{
+    border-radius: 50px;
+    background-color: #6CB840;
+    border: none;
+    width: 10%;
+    color: white;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#strt{
+    color: #6CB840;
+}
+#food{
+    color: #EAAB1B;
+}
 .ell{
-    margin-top: -270px;/*increase */
+    margin-top: -600px;/*increase -270*/
     height: 500px;
     margin-left: 500px;/*reduce*/
     margin-right: -120px;/*increase*/
@@ -94,6 +113,16 @@ h4{
  }
  .dealcont{
      float: left;
+ }
+ #combo{
+     color: #6CB840;
+     font-size: 30px;
+     margin-top: -15px;
+     font-weight: 600;
+ }
+ #pizz{
+     margin-left: -230px;
+     font-size: 20px;
  }
  .menu-3{
     background-color: #FFD77C;
@@ -200,4 +229,8 @@ h4{
 .indt{
      text-indent: 70px;
      margin-top: -13px;
+ }
+ #play{
+     color: black;
+     font-weight: 570;
  }
